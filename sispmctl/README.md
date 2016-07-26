@@ -1,12 +1,12 @@
 # Docker Build Command
 ```
-docker build -t sispmctl:latest .
+docker build -t kevintaron/sispmctl-arm:latest .
 ```
 
 # Run the Image:
 
 ```
-docker run -t -i --privileged -v /dev/bus/usb:/dev/bus/usb sispmctl:latest
+docker run -t -i --privileged -v /dev/bus/usb:/dev/bus/usb kevintaron/sispmctl-arm:latest
 ```
 
 # Rename & Start Container
